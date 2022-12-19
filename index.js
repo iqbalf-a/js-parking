@@ -1,9 +1,5 @@
 let parkedCars = []
 
-function timeout(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
-
 function Car(licensePlate, owner) {
     this.licensePlate = licensePlate
     this.owner = owner
