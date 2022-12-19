@@ -9,7 +9,7 @@ function createPark(size) {
     return new Promise(resolve => {
         setTimeout(() => {
             this.size = size
-            console.log(`Tempat parkit berhasil dibuat dengan kapasitas ${size} kendaraan`),
+            console.log(`Tempat parkir berhasil dibuat dengan kapasitas ${size} kendaraan`),
                 resolve(
                     Park,
                     Leave,
